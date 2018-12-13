@@ -16,9 +16,7 @@ def main():
             filepath = opath + files[0]
             subprocess.call(['mv', filepath, fpath])
             files.pop(0)
-            for f in files:
-                print(f)
-        sleep(4)
+        sleep(240) # 4m x 60s
 
 if __name__ == '__main__':
     main()
